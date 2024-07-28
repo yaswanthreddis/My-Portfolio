@@ -74,6 +74,13 @@ const TimelineSection = styled.div`
   }
 `;
 
+const CustomTimelineItem = styled(TimelineItem)`
+  min-height: 120px; /* Adjust this value to fit the card height */
+  &:last-child .MuiTimelineConnector-root {
+    display: none; /* Hide the connector after the last item */
+  }
+`;
+
 const index = () => {
   return (
     <Container id="education">
@@ -85,15 +92,17 @@ const index = () => {
         <TimelineSection>
           <Timeline>
             {education.map((education, index) => (
-              <TimelineItem key={index}>
+              <CustomTimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index !== education.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                  {index !== education.length - 1 && (
+                    <TimelineConnector style={{ background: '#854CE6' }} />
+                  )}
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                   <EducationCard education={education} />
                 </TimelineContent>
-              </TimelineItem>
+              </CustomTimelineItem>
             ))}
           </Timeline>
         </TimelineSection>
