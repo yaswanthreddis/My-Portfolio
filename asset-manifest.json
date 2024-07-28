@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/My-Portfolio/static/js/main.3c980c05.js",
+    "static/media/PAS.png": "/My-Portfolio/static/media/PAS.b02de2274b74be68dc37.png",
+    "static/media/res1.jpg": "/My-Portfolio/static/media/res1.88ceef1ba1d12bceaea2.jpg",
+    "static/media/uber.jpg": "/My-Portfolio/static/media/uber.e74768cc1b878a244b1d.jpg",
+    "static/media/bluestock.png": "/My-Portfolio/static/media/bluestock.4636ebad58ceb6f8ce51.png",
+    "static/media/express.png": "/My-Portfolio/static/media/express.f1bb69f1f7f6b281dc2f.png",
+    "static/media/my_profile_pic.jpg": "/My-Portfolio/static/media/my_profile_pic.bb55e5e742b07850c7c4.jpg",
+    "static/media/boty1.jpg": "/My-Portfolio/static/media/boty1.c8a5d86de45e56c04b32.jpg",
+    "static/media/sasi.jpg": "/My-Portfolio/static/media/sasi.58f850ad3b2ff3e86fb3.jpg",
+    "static/media/akhil.jpg": "/My-Portfolio/static/media/akhil.0428e893fe6d10a6f52f.jpg",
+    "static/media/amoon.jpg": "/My-Portfolio/static/media/amoon.0477ec4c53b8061190b5.jpg",
+    "static/media/opencv.svg": "/My-Portfolio/static/media/opencv.53ba27a548c83982387622ba588593aa.svg",
+    "static/media/github.svg": "/My-Portfolio/static/media/github.d4a88fab997a32b54b84dfe78eceedf9.svg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.bf538fe7.css.map": "/My-Portfolio/static/css/main.bf538fe7.css.map",
+    "main.3c980c05.js.map": "/My-Portfolio/static/js/main.3c980c05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.3c980c05.js"
+  ]
+}
