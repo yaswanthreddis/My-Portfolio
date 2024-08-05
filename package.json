@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "homepage": "http://yaswanthreddys.tech/",
+  "homepage": "http://yaswanthreddys.me/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
